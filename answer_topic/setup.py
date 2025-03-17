@@ -7,8 +7,7 @@ setup(
     version='0.0.0',
     packages=find_packages(exclude=['test']),
     data_files=[
-        ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
+        ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
     install_requires=['setuptools'],
@@ -20,8 +19,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'answer_pub  = answer_topic.answer_pub:main',
-        'answer_sub  = answer_topic.answer_sub:main'
+            'answer_pub = answer_topic.answer_pub:main',
+            'answer_sub = answer_topic.answer_sub:main',
         ],
     },
 )
