@@ -14,6 +14,9 @@ class SubscriberNode(Node):
     def listener_callback(self, msg):
         for num in range(1,10):                        
             self.get_logger().info('同学“%d”: 已回答"%s"' % (num, msg.data))
+            
+            
+            
 def main(args=None):                                 
     rclpy.init(args=args)                         
     node = SubscriberNode("answer_sub")    

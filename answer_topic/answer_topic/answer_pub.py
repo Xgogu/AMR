@@ -12,12 +12,12 @@ class PublisherNode(Node):
         self.pub = self.create_publisher(String, "teacher", 10)   
         self.timer = self.create_timer(1, self.timer_callback)  
         
-    def timer_callback(self):                                     
-        msg = String()                                                 
-        msg.data = '问题"%d"' % self.num
-        self.num=self.num+1                                
-        self.pub.publish(msg)                                  
-        self.get_logger().info('在线回答: "%s"' % msg.data)     
+    def timer_callback(self):                                                                                                                           
+        msg = String()
+        msg.data = f'问题 "{self.num}"'
+        self.pub.publish(msg)
+        self.get_logger().info(f'已发布: {msg.data}')
+        self.num += 1    
         
 def main(args=None):                         
     rclpy.init(args=args)                           
