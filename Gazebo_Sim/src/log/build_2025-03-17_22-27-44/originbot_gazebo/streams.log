@@ -1,0 +1,42 @@
+[0.518s] Invoking command in '/home/mgshawn/Working_WS/AMR/Gazebo_Sim/src': PYTHONPATH=/home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/originbot_gazebo build --build-base /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/build install --record /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/install.log --single-version-externally-managed install_data
+[0.720s] running egg_info
+[0.720s] writing build/originbot_gazebo/originbot_gazebo.egg-info/PKG-INFO
+[0.721s] writing dependency_links to build/originbot_gazebo/originbot_gazebo.egg-info/dependency_links.txt
+[0.721s] writing entry points to build/originbot_gazebo/originbot_gazebo.egg-info/entry_points.txt
+[0.721s] writing requirements to build/originbot_gazebo/originbot_gazebo.egg-info/requires.txt
+[0.721s] writing top-level names to build/originbot_gazebo/originbot_gazebo.egg-info/top_level.txt
+[0.722s] reading manifest file 'build/originbot_gazebo/originbot_gazebo.egg-info/SOURCES.txt'
+[0.723s] writing manifest file 'build/originbot_gazebo/originbot_gazebo.egg-info/SOURCES.txt'
+[0.723s] running build
+[0.723s] running build_py
+[0.723s] running install
+[0.723s] running install_lib
+[0.724s] running install_data
+[0.724s] copying resource/originbot_gazebo -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/ament_index/resource_index/packages
+[0.724s] copying package.xml -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo
+[0.724s] creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/launch
+[0.724s] copying launch/originbot_gazebo.launch.py -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/launch
+[0.724s] creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf
+[0.725s] copying urdf/rgbd_gazebo.xacro -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf
+[0.725s] copying urdf/camera_gazebo.xacro -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf
+[0.725s] copying urdf/lidar_gazebo.xacro -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf
+[0.725s] copying urdf/originbot_gazebo.xacro -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf
+[0.725s] copying urdf/base_gazebo.xacro -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf
+[0.725s] copying urdf/originbot_with_rgbd_gazebo.xacro -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf
+[0.725s] creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/meshes
+[0.725s] copying meshes/kinect.tga -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/meshes
+[0.725s] copying meshes/kinect.dae -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/meshes
+[0.726s] copying meshes/kinect.jpg -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/meshes
+[0.726s] creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/urdf/sensors
+[0.726s] creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/worlds
+[0.726s] copying worlds/line_follower.world -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/worlds
+[0.726s] copying worlds/cloister.world -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/worlds
+[0.726s] copying worlds/new_track.world -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/worlds
+[0.726s] copying worlds/empty_world.model -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/worlds
+[0.726s] creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/rviz
+[0.726s] copying rviz/urdf.rviz -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/originbot_gazebo/rviz
+[0.726s] running install_egg_info
+[0.728s] Copying build/originbot_gazebo/originbot_gazebo.egg-info to /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/lib/python3.10/site-packages/originbot_gazebo-0.0.0-py3.10.egg-info
+[0.729s] running install_scripts
+[0.744s] writing list of installed files to '/home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/install.log'
+[0.760s] Invoked command in '/home/mgshawn/Working_WS/AMR/Gazebo_Sim/src' returned '0': PYTHONPATH=/home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/originbot_gazebo build --build-base /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/build install --record /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/install.log --single-version-externally-managed install_data

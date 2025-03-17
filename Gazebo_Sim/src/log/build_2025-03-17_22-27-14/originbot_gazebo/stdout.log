@@ -1,0 +1,25 @@
+running egg_info
+creating build/originbot_gazebo/originbot_gazebo.egg-info
+writing build/originbot_gazebo/originbot_gazebo.egg-info/PKG-INFO
+writing dependency_links to build/originbot_gazebo/originbot_gazebo.egg-info/dependency_links.txt
+writing entry points to build/originbot_gazebo/originbot_gazebo.egg-info/entry_points.txt
+writing requirements to build/originbot_gazebo/originbot_gazebo.egg-info/requires.txt
+writing top-level names to build/originbot_gazebo/originbot_gazebo.egg-info/top_level.txt
+writing manifest file 'build/originbot_gazebo/originbot_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'build/originbot_gazebo/originbot_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'build/originbot_gazebo/originbot_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/build
+creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/build/lib
+creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/build/lib/originbot_gazebo
+copying originbot_gazebo/__init__.py -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/build/lib/originbot_gazebo
+running install
+running install_lib
+creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/lib/python3.10/site-packages/originbot_gazebo
+copying /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/build/originbot_gazebo/build/lib/originbot_gazebo/__init__.py -> /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/lib/python3.10/site-packages/originbot_gazebo
+byte-compiling /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/lib/python3.10/site-packages/originbot_gazebo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/ament_index
+creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/ament_index/resource_index
+creating /home/mgshawn/Working_WS/AMR/Gazebo_Sim/src/install/originbot_gazebo/share/ament_index/resource_index/packages
